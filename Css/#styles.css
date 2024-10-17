@@ -1,0 +1,31 @@
+body{
+    background-color:#A6CFD5 ;
+}
+
+img{
+
+}
+header{
+    background-color: blueviolet;
+}
+#header_img{
+
+}
+
+h1 {
+    text-align: center;
+    color: #0B2740;
+    text-shadow: 1px 1px 1px black;
+}
+nav{
+    background-color: #26408B;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
