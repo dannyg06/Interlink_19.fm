@@ -12,9 +12,9 @@ h1 {
     text-shadow: 1px 1px 1px black;
 }
 nav{
-    background-color: #26408B;
+    background-color: #0F084B;
     text-align: center;
-    padding: 5px;
+    padding: 20px;
     margin: 10px;
     border-radius: 10px;
 }
@@ -23,3 +23,29 @@ nav ul{
     list-style-type: none;
     padding: 0;
 }
+
+nav li{
+    display: inline;
+    
+}
+nav li a {
+    background-color: #26408B;
+    color: #0F084B;
+    height: 25px;
+    line-height: 30px;
+    margin-top: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 2px;
+}
+
+nav li a :hover{
+    background-color: #0492c2;
+}
+
+main h2, main h3, footer{
+    color:#0D0221;
+    text-align: center;
+}
+
