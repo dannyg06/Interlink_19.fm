@@ -49,3 +49,11 @@ main h2, main h3, footer{
     text-align: center;
 }
 
+footer{
+    background-color:white;
+    color:#0D0221;
+    padding: 40px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
