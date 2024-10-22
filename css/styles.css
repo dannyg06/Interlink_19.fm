@@ -14,12 +14,19 @@ header{
 }
 #bannerblues{
     background-image: url(../images/Banner\ Blues.jpg);
-    height: 60px;
+    height: 100px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+#historybanner{
+    background-image: url(../images/historybanner.jpg);
+    height: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 #resourcesbanner {
     background-image: url(../images/resourcesbanner.jpg);
     height: 60px;
@@ -51,7 +58,7 @@ nav li{
 }
 nav li a {
     background-color: #26408B;
-    color: #0F084B;
+    color: #A6CFD5;
     height: 25px;
     line-height: 30px;
     margin-top: 5px;
@@ -82,9 +89,40 @@ footer{
     background-color: cornflowerblue;
     padding: 10px;
     border-radius: 10px;
-    border: 3px solid #d4e09b;
+    border: 3px solid #772e25;
     margin: 10px 0;
     display: flex;
+}
+
+iframe{
+    display: block;
+    width: 50%;
+    height: 20%;
+    margin: 20px auto 40px auto;
+    border: 4px solid #0B2740;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+table{
+    border: 2px solid #000;
+    border-radius: 5px;
+    margin: 10px;
+    
+}
+
+th {
+    font-size: 16px;
+    text-align:center;
+    border: #91BBF2;
+}
+
+th, tr {
+    border: 4px solid  rgb(162, 61, 61);
+    padding: 10px;
+    margin: 100%;
+    border-radius: 10px;
 }
 
 /*Tablet Css*/
@@ -144,6 +182,11 @@ footer{
     #lower_area {
         display: flex;
     }
+    
+    p.big {
+        line-height: 2.0;
+      }
+
     
 } 
 
