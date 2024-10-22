@@ -35,6 +35,14 @@ header{
     background-size: cover;
 }
 
+#contact {
+    background-image: url(../images/contact.jpg);
+    height: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 h1 {
     text-align: center;
     color: #0B2740;
@@ -72,7 +80,7 @@ nav li a :hover{
     background-color: #0492c2;
 }
 
-main h2, main h3, footer{
+main h2, main h3, main h4, footer{
     color:#0D0221;
     text-align: center;
 }
@@ -91,7 +99,6 @@ footer{
     border-radius: 10px;
     border: 3px solid #772e25;
     margin: 10px 0;
-    display: flex;
 }
 
 iframe{
@@ -140,8 +147,24 @@ th, tr {
         background-size: cover;
     }
 
+    #historybanner{
+        background-image: url(../images/historybanner.jpg);
+        height: 150px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
     #resourcesbanner{
         background-image: url(../images/resourcesbanner.jpg);
+        height: 150px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #contact {
+        background-image: url(../images/contact.jpg);
         height: 150px;
         background-position: center;
         background-repeat: no-repeat;
@@ -165,6 +188,7 @@ th, tr {
     }
     main{
         display:flex;
+
     }
 
     section, aside {
@@ -182,10 +206,6 @@ th, tr {
     #lower_area {
         display: flex;
     }
-    
-    p.big {
-        line-height: 2.0;
-      }
 
     
 } 
