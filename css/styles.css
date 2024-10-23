@@ -85,6 +85,14 @@ main h2, main h3, main h4, footer{
     text-align: center;
 }
 
+p{
+    line-height: 1.5;
+}
+
+ul{
+    line-height: 1.5;
+}
+
 footer{
     background-color:white;
     color:#0D0221;
