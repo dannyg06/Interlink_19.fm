@@ -194,20 +194,22 @@ th, tr {
     section, aside {
         padding: 30px;
         margin: 10px;
-        border: 2px solid black;
+        border: 2px solid #e63946;
         border-radius: 10px;
         text-align: justify;
     }
     .col{
         width: 50%;
-        text-align: justify;
+        text-align: left;
     }
 
     #lower_area {
         display: flex;
     }
+    #lower_area img{
+        width: 70%;
+    }
 
-    
 } 
 
 /*Desktop Version*/
@@ -222,11 +224,12 @@ th, tr {
         background-color: #95C5DB;
         padding: 10px;
         font-size: 17px;
+        border-radius: 5px;
     }
 
     h1{
         text-align: center;
-        color:darkmagenta;
+        color:#03045e;
     }
 
     #main_area {
