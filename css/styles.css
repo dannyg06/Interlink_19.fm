@@ -198,6 +198,15 @@ th, tr {
         border-radius: 10px;
         text-align: justify;
     }
+
+    p{
+        line-height: 1.5;
+    }
+
+    ul{
+        line-height: 1.5;
+    }
+
     .col{
         width: 50%;
         text-align: left;
@@ -210,6 +219,7 @@ th, tr {
         width: 70%;
     }
 
+    
 } 
 
 /*Desktop Version*/
