@@ -1,0 +1,68 @@
+body {
+    background-color: chartreuse;
+    font-family: "Josefin Sans", sans-serif;
+}
+ 
+*/Classes*/
+
+*/Ids*/
+#header_img{
+    background-image: (url(../images/heder.png));
+    background-size: none;
+    background-position: center;
+    object-fit: cover;
+   
+}
+#header{
+    width: 30%;
+}
+
+.navbar{
+    background-color: black;
+}
+
+.header{
+    width:fit-content;
+}
+#Welcome {
+    background-image: url(../images/header_image.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#panel_bg {
+    width: 50%;
+}
+
+#panel_bg2 {
+    width: 50%;
+}
+
+
+#bye {
+    background-image: url(../images/big.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width: 768px) {
+    #header_img {
+      height: auto;
+    }
+#header {
+    width: 100%;
+    height: auto;
+  }
+
+}
+
+@media (min-width:1024px) {
+    #panel_bg {
+    width: 50%;
+}
+}
+
+img{
+    background-size: cover;
+    width: auto;
+}
