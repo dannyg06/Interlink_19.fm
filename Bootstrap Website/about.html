@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+<link rel="icon" type="image/x-icon" href="images/favicon.ico">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
@@ -30,12 +31,12 @@
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="about.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      About
+                      Space
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">About</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      <li><a class="dropdown-item" href="about.html">About Space</a></li>
+                      <li><a class="dropdown-item" href="https://www.nasa.gov/">NASA</a></li>
+                      <li><a class="dropdown-item" href="https://aesthetics.fandom.com/wiki/Spacecore">Spacecore Aesthethic</a></li>
                     </ul>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -76,39 +77,53 @@
   </button>
   
   <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-      <div class="modal-content">
+   <div id="modal-container">
+     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
         <div class="modal-header">
           <h1 class="modal-title fs-5" id="exampleModalLabel">WHO ROCKS?</h1>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-        You cuz you rock earth, and it doesnt rock you and u should realize that
+        You cuz you rock earth, and it doesnt rock you and u should realize that 
         </div>
+        <img src="images/astronaut.jpg" alt="">
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Slay and move on</button>
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Slay and move on</button>
         </div>
       </div>
     </div>
+</div>
   </div>
   <hr>
         <div class="row">
-            <div class="card" style="width: 18rem;">
-                <img src="images/header_ramune.jpg" class="card-img-top" alt="">
+            <div id="ramune" class="card" style="width: 18rem;">
+                <img src="images/blackhole.png" class="card-img-top" alt="">
                 <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">Black holes are mind-bending cosmic enigmas, fascinating scientists and space enthusiasts alike! These gravitational powerhouses warp space-time, hiding massive amounts of matter in infinitely dense singularities. Their mystique lies in mysterious properties: event horizons trapping light, warped spacetime, and an unsettling silence emitting no radiation. Black holes challenge our understanding of physics, raising intriguing questions about the universe's origins, dark matter and energy. Their captivating allure inspires research, sparking discoveries and redefining the boundaries of human knowledge.
+            </p>
                 </div>
             </div>
-            <div class="card" style="width: 18rem;">
-                <img src="images/header_ramune.jpg" class="card-img-top" alt="">
+            <div id="ramuno" class="card" style="width: 18rem;">
+                <img src="images/planets.jpg" class="card-img-top" alt="">
                 <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">Planets are cosmic marvels, filling us with wonder! They're uniquely diverse, boasting diverse landscapes like volcanic Venus, icy Neptune and gaseous Jupiter, along with extreme weather conditions. Each planet holds mysteries waiting to be unraveled. From Jupiter's majestic rings to Saturn's stunning aurora displays and Mars' ancient riverbeds, planets are celestial treasures sparking imagination, fueling scientific discovery and connecting us to the vast unknown!</p>
+                </div>
+            </div>
+            <div id="ramuno" class="card" style="width: 18rem;">
+                <img src="images/galaxy.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+              <p class="card-text">Galaxies are breathtaking cosmic wonders, captivating astronomers and space enthusiasts! These vast, starry systems stretch across millions of light-years, showcasing diverse shapes and colors. Galaxies harbor mysteries: supermassive black holes, dark matter and enigmatic dark energy. Their beauty lies in sweeping spiral arms, luminous central bulges and vibrant star-forming regions. Galaxies offer a window into the universe's evolution, revealing the cosmic dance of gravitational interactions and mergers. Exploring galaxies inspires awe, sparks curiosity and expands our understanding of the universe's grand scale and intricate complexity.</p>
                 </div>
             </div>
         </div>
+
+
         <hr>
+
+
         <div class="card text-bg-dark">
             <img class="img-fluid" src="images/nebula.jpg" class="card-img" alt="...">
             <div class="card-img-overlay">
