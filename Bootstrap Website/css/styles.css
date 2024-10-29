@@ -1,29 +1,23 @@
 body {
-    background-color: chartreuse;
+    background-color: #3c096c;
     font-family: "Josefin Sans", sans-serif;
+    color: white;
 }
  
-*/Classes*/
+
 
 */Ids*/
-#header_img{
+/* #header_img{ 
     background-image: (url(../images/heder.png));
-    background-size: none;
     background-position: center;
     object-fit: cover;
    
 }
+    */
 #header{
-    width: 30%;
+    width: 100%;
 }
 
-.navbar{
-    background-color: black;
-}
-
-.header{
-    width:fit-content;
-}
 #Welcome {
     background-image: url(../images/header_image.jpg);
     background-size: cover;
@@ -45,17 +39,57 @@ body {
     background-position: center;
 }
 
+
+*/Classes*/
+.img-fluid {
+    width: 100% !important;
+    height: 200px !important;
+    object-fit: cover !important;
+  }
+
+  
+.navbar{
+    background-color: black;
+}
+.navbar a {
+    color: #fff;
+  }
+
+  .nav-link.active {
+    color: #fff !important;
+  }
+
+.header{
+    width:fit-content;
+}
+
+.card-title {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #fff;
+  }
+  
+  .card-text {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+  }
+  
+  
+  
+/*tablet css*/
+
 @media (max-width: 768px) {
     #header_img {
-      height: auto;
+      background-size: cover;
+      background-position: center;
     }
 #header {
     width: 100%;
-    height: auto;
+    object-fit: cover !important;
   }
 
 }
 
+/*desktop css*/
 @media (min-width:1024px) {
     #panel_bg {
     width: 50%;
@@ -63,6 +97,6 @@ body {
 }
 
 img{
-    background-size: cover;
-    width: auto;
+
+    max-width: 100%;
 }
