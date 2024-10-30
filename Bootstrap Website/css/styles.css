@@ -43,7 +43,7 @@ body {
 
 
 #bye {
-    background-image: url(../images/big.jpg);
+    background-image: url(../images/supernova.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -73,6 +73,10 @@ body {
 .navbar a {
     color: #fff;
   }
+
+.navbar-toggler {
+    color: white;
+}
 
 .dropdown-item{
     background-color: black;
