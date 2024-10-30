@@ -58,8 +58,30 @@ body {
     margin: 20px; 
 }
 
+#carouselExampleFade {
+    max-width: 100%;
+    margin: auto;
+}
 
-*/Classes*/
+/* .carousel-inner img {
+    width: 100%; 
+    height: auto; 
+    object-fit: cover; 
+  }
+  
+
+/*
+ .carousel-inner {
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .carousel-item {
+    text-align: center;
+  } 
+
+
+/*Classes*/
 .img-fluid {
     width: 100% !important;
     height: 200px !important;
@@ -73,7 +95,9 @@ body {
 .navbar a {
     color: #fff;
   }
-
+.navbar li a:hover{
+    background-color: #98c1d9;
+}
 .navbar-toggler {
     color: white;
 }
