@@ -30,7 +30,7 @@ body {
     background-position: center;
 }
 
-#amor{
+#prohibido{
     width: 50%;
 }
 #panel_bg {
@@ -48,6 +48,15 @@ body {
     background-position: center;
 }
 
+#yeah {
+    background-image: url(../images/wale.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#noo{
+    width: 50%;
+}
 #ramune {
     width: 300px; 
     margin: 20px; 
@@ -63,14 +72,14 @@ body {
     margin: auto;
 }
 
-/* .carousel-inner img {
+
+
+ .carousel-inner img {
     width: 100%; 
     height: auto; 
-    object-fit: cover; 
   }
   
 
-/*
  .carousel-inner {
     justify-content: center;
     align-items: center;
@@ -139,7 +148,11 @@ body {
     background-color: black;
 }
   
-  
+img, .container-fluid {
+    max-width: 100%;
+    text-align: justify;
+    object-fit: scale-down;
+  }
   
 /*tablet css*/
 
