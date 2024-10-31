@@ -67,6 +67,11 @@ body {
     margin: 20px; 
 }
 
+#ramun {
+    width: 300px; 
+    margin: 20px; 
+}
+
 #carouselExampleFade {
     max-width: 100%;
     margin: auto;
