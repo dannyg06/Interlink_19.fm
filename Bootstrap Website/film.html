@@ -12,8 +12,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
-<script>const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
-const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))</script>
+<script>
+  var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+  var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+    return new bootstrap.Tooltip(tooltipTriggerEl)
+  })
+  </script>
 <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -106,7 +110,8 @@ const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstra
             </div>
       </div>
             
-            <p class="muted">Click here to listen to YOUR OWN space background music<a href="https://www.youtube.com/watch?v=2fkiv7K9bfg" data-bs-toggle="tooltip" data-bs-title="Click It">HEREEEE!!!</a></p>
+            <p class="muted" >Click here to listen to YOUR OWN space background music<a href="https://www.youtube.com/watch?v=2fkiv7K9bfg" data-bs-placement="top" data-bs-toggle="tooltip" data-bs-title="Click It">HEREEEE!!!</a></p>
+            
             <hr>
             <div class="row">
             <div class="col-lg-12 py-5 text-center">

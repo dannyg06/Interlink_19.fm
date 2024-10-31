@@ -148,10 +148,17 @@ body {
     background-color: black;
 }
   
+.btn {
+
+color: white;
+}
+.btn:hover {
+    background-color: #98c1d9;
+  }
+  
 img, .container-fluid {
     max-width: 100%;
     text-align: justify;
-    object-fit: scale-down;
   }
   
 /*tablet css*/
