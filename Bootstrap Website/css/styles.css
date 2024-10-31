@@ -109,7 +109,10 @@ body {
 }
 .navbar-toggler {
     color: white;
+    border-color: #98c1d9;
+    background-color: #fff;
 }
+
 
 .dropdown-item{
     background-color: black;
@@ -147,7 +150,7 @@ body {
 .card{
     background-color: black;
 }
-  
+
 .btn {
 
 color: white;
