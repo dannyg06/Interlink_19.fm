@@ -1,59 +1,200 @@
 body {
     background-color: #e9edc9;
-    font-family: "Akaya Telivigala", system-ui;
+    font-family: Akaya Telivigala, serif;
     color: black;
-    padding: 0;
-    font-size: 16px; /* add font size */
-  }
+}
+ 
+h2{
+    color:#732922;
+    text-align: center;
+}
 
-  h2 {
-    color: #732922;
-  }
 
-  #header {
+*/Ids*/
+
+#header{
+    width: 100%;
+}
+
+#Welcome {
+    background-image: url(../images/green.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+#amor{
+    background-image: url(../images/gotg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#prohibido{
     width: 50%;
-    border-radius: 10px; /* add border radius */
-    display: grid;
+}
+#panel_bg {
+    width: 50%;
+}
+
+#panel_bg2 {
+    width: 50%;
+}
+
+
+#bye {
+    background-image: url(../images/water.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#yeah {
+    background-image: url(../images/wale.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#noo{
+    width: 50%;
+}
+#ramune {
+    width: 300px; 
+    margin: 20px; 
+}
+
+#ramuno {
+    width: 300px; 
+    margin: 20px; 
+}
+
+#ramun {
+    width: 300px; 
+    margin: 20px; 
+}
+
+#carouselExampleFade {
+    max-width: 100%;
+    margin: auto;
+}
+
+
+
+ .carousel-inner img {
+    width: 100%; 
+    height: auto; 
   }
+  
 
-
-  #container {
-    width: 80%;
-    margin: 40px auto;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    display: flex;
-    justify-content: space-between;
+ .carousel-inner {
+    justify-content: center;
     align-items: center;
   }
+  
+  .carousel-item {
+    text-align: center;
+  } 
 
-  .nav-item-dropdown{
+
+/*Classes*/
+.img-fluid {
+    width: 100% !important;
+    height: 200px !important;
+    object-fit: cover !important;
+  }
+
+  
+.navbar{
+    background-color: white;
+}
+.navbar a {
+    color: #732922;
+  }
+.navbar li a:hover{
+    background-color: #98c1d9;
+}
+.navbar-toggler {
     color: white;
+    border-color: #98c1d9;
+    background-color: #fff;
+}
+
+
+.dropdown-item{
+    background-color: white;
+}
+
+.nav-link.active {
+    color: #732922 !important;
+  }
+
+
+.header{
+    width:fit-content;
+}
+
+.modal-title{
+    color: black;
+}
+.modal-body{
+    color: black;
+}
+.card-title {
+    color: #fff;
   }
   
-  /* Responsive design */
-  @media (max-width: 768px) {
-    #container {
-      width: 100%;
-      margin: 20px auto;
+  .card-text {
+    color: #fff;
+  }
+
+.card {
+    object-position: center;
+
+}
+
+.card{
+    background-color: #606c38;
+
+}
+
+.carousel-btn {
+    background-color: #732922; /* Soft Peach */
+    color: #964B00; /* Earthy Brown */
+  }
+
+.btn {
+
+color: #732922;
+}
+.btn:hover {
+    background-color: #c1fba4;
+  }
+  
+img, .container-fluid {
+    max-width: 100%;
+    text-align: justify;
+  }
+  
+/*tablet css*/
+
+@media (max-width: 768px) {
+    #header_img {
+      background-size: cover;
+      background-position: center;
     }
+#header {
+    width: 100%;
+    object-fit: cover !important;
   }
-  .navbar {
-    display: inline-block
-  }
-  
-  
-  .nav-link {
-    color: #333;
-    font-size: 18px; /* add font size */
-  }
-  
-  .nav-link:hover {
-    color: #666;
-  }
-  
-  .btn-warning {
-    padding: 10px 20px;
-    border-radius: 10px; /* add border radius */
-  }
+
+}
+
+/*desktop css*/
+@media (min-width:1024px) {
+    #panel_bg {
+    width: 50%;
+}
+}
+
+img{
+
+    max-width: 100%;
+}
