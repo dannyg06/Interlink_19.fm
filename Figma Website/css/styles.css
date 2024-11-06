@@ -10,8 +10,6 @@ h2{
 }
 
 
-*/Ids*/
-
 #header{
     width: 100%;
 }
@@ -155,11 +153,6 @@ h2{
 
 }
 
-.carousel-btn {
-    background-color: #732922; /* Soft Peach */
-    color: #964B00; /* Earthy Brown */
-  }
-
 .btn {
 
 color: #732922;
@@ -191,7 +184,9 @@ img, .container-fluid {
 @media (min-width:1024px) {
     #panel_bg {
     width: 50%;
+    
 }
+
 }
 
 img{
