@@ -1,0 +1,59 @@
+body {
+    background-color: #e9edc9;
+    font-family: "Akaya Telivigala", system-ui;
+    color: black;
+    padding: 0;
+    font-size: 16px; /* add font size */
+  }
+
+  h2 {
+    color: #732922;
+  }
+
+  #header {
+    width: 50%;
+    border-radius: 10px; /* add border radius */
+    display: grid;
+  }
+
+
+  #container {
+    width: 80%;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-item-dropdown{
+    color: white;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    #container {
+      width: 100%;
+      margin: 20px auto;
+    }
+  }
+  .navbar {
+    display: inline-block
+  }
+  
+  
+  .nav-link {
+    color: #333;
+    font-size: 18px; /* add font size */
+  }
+  
+  .nav-link:hover {
+    color: #666;
+  }
+  
+  .btn-warning {
+    padding: 10px 20px;
+    border-radius: 10px; /* add border radius */
+  }
